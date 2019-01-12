@@ -68,7 +68,7 @@ multiple Java files somewhere in the directory structure.
 
 1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
-   order, to standard output, effectively con<i>cat</i>enating the contents of the supplied files.
+   order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
 
 **CHECKPOINT** 

@@ -15,7 +15,7 @@ logged into the Nike server.
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### SECTION TITLE
+### Getting Started
 
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce04`:
 
@@ -39,6 +39,10 @@ multiple Java files somewhere in the directory structure.
    * How does Java describe the error?
    * Fix that specific error. There may be other problems with the code, but do not fix them at this time.
      What did you do to fix it?
+
+**CHECKPOINT**
+    
+### Using Your Cat
    
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`.
    **HINT:** When a program interacts with files, it is relative to the current working directory in
@@ -56,7 +60,7 @@ multiple Java files somewhere in the directory structure.
 
 **CHECKPOINT**
     
-### SECTION TITLE
+### Enhancing Your Cat
 
 1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. A run-time
    exception should occur. What is it, and why did it occur?
@@ -76,12 +80,6 @@ multiple Java files somewhere in the directory structure.
 
 **CHECKPOINT** 
     
-### SECTION TITLE
-
-1. 
-
-**CHECKPOINT** 
-
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)

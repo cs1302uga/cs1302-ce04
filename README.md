@@ -46,7 +46,8 @@ multiple Java files somewhere in the directory structure.
    
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`.
    **HINT:** When a program interacts with files, it is relative to the current working directory in
-   which the program is being run.
+   which the program is being run. That is, you are in some directory when you type the `java` command.
+   For a Java program, relative paths are relative to that directory. 
 
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
    This may seem weird at first, but the program should allow you to type in lines of text to standard

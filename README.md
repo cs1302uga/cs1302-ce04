@@ -50,8 +50,9 @@ multiple Java files somewhere in the directory structure.
    The program will terminate once it reaches the end of the file. What does that mean for standard
    input? You can trigger the end of file (a.k.a. the `EOF`) by pressing `C-d`.
 
-1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
-   At the same time, use input redirection to redirect standard input to the `MyCat.java` file.
+1. **[TRICKY]** From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of 
+   standard input. At the same time, use input redirection to make standard input for the program come 
+   from `MyCat.java` instead of from the keyboard.
 
 **CHECKPOINT**
     

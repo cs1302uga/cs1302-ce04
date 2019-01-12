@@ -48,7 +48,14 @@ multiple Java files somewhere in the directory structure.
     
 ### SECTION TITLE
 
-1. 
+1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. A run-time
+   exception should occur. What is it, and why did it occur?
+
+1. There are multiple ways to fix the run-time exception encountered in the last step. However, please
+   fix the problem in such a way that the following criteria are met whenever the exception occurs:
+   
+   * The program does not crash.
+   * The excpeption message is stil displayed to standard error.
 
 **CHECKPOINT** 
     

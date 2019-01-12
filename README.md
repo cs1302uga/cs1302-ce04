@@ -71,6 +71,13 @@ multiple Java files somewhere in the directory structure.
    * The program does not crash.
    * The excpeption message is stil displayed to standard error.
 
+   When displaying the exception message, something like this will suffice (replacing `<message>`
+   with the actual exception message):
+
+   ```
+   MyCat: <message>
+   ```
+
 1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.

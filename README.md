@@ -23,10 +23,11 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
-two Java files somewhere in the directory structure. What are the fully qualified names for the
-classes contained in those files?
+two Java files somewhere in the directory structure. 
 
-
+   * What are the fully qualified names for the classes contained in those files?
+   * What is the path to the default package for source code relative to the `cs1302-ce04`
+     directory?
 
 **CHECKPOINT**
     

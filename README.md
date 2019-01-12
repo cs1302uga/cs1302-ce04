@@ -70,6 +70,8 @@ multiple Java files somewhere in the directory structure.
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
+1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of 
+   `Printer.java`, standard input, and `MyCat.java` in that order!
 
 **CHECKPOINT** 
     

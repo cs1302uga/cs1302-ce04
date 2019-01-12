@@ -71,12 +71,19 @@ multiple Java files somewhere in the directory structure.
    * The program does not crash.
    * The excpeption message is stil displayed to standard error.
 
-   When displaying the exception message, something like this will suffice (replacing `<message>`
-   with the actual exception message):
+   When displaying the exception message, something like the following will suffice 
+   (replacing `<message>` with the actual exception message):
 
    ```
    MyCat: <message>
    ```
+
+1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. What's the
+   difference between this execution of the program and the one performed two steps earlier?
+
+**CHECKPOINT**
+    
+### Further Enhancing Your Cat
 
 1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in

@@ -29,7 +29,14 @@ two Java files somewhere in the directory structure.
    * What is the path to the default package for source code relative to the `cs1302-ce04`
      directory?
 
-1. From the `cs1302-ce04` directory, try to compile both Java files using a single command.
+1. From the `cs1302-ce04` directory, try to compile both Java files using a single command. For each
+   each compile-time error, answer the following questions:
+
+   * In what file is the error?
+   * On what line in the source code is the error?
+   * How does Java describe the error?
+   
+1. 
 
 **CHECKPOINT**
     

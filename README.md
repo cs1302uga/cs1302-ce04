@@ -44,6 +44,15 @@ multiple Java files somewhere in the directory structure.
    **HINT:** When a program interacts with files, it is relative to the current working directory in
    which the program is being run.
 
+1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
+   This may seem weird at first, but the program should allow you to type in lines of text to standard
+   input. When you complete a line by hitting return, the program will print the line to standard input.
+   The program will terminate once it reaches the end of the file. What does that mean for standard
+   input? You can trigger the end of file (a.k.a. the `EOF`) by pressing `C-d`.
+
+1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
+   At the same time, use input redirection to redirect standard input to the `MyCat.java` file.
+
 **CHECKPOINT**
     
 ### SECTION TITLE
@@ -51,11 +60,16 @@ multiple Java files somewhere in the directory structure.
 1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. A run-time
    exception should occur. What is it, and why did it occur?
 
-1. There are multiple ways to fix the run-time exception encountered in the last step. However, please
-   fix the problem in such a way that the following criteria are met whenever the exception occurs:
+1. There are multiple ways to fix the run-time exception that you encountered in the last step.
+   Fix the problem in such a way that the following criteria are met whenever the exception occurs:
    
    * The program does not crash.
    * The excpeption message is stil displayed to standard error.
+
+1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
+   command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
+   order, to standard output, effectively con_cat_enating the contents of the supplied files.
+
 
 **CHECKPOINT** 
     

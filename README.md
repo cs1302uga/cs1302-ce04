@@ -1,4 +1,4 @@
-# ce04 Exceptions
+# ce04 An Exceptional Cat
 
 ## Prerequisite Knowledge
 

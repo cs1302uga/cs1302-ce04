@@ -41,8 +41,8 @@ multiple Java files somewhere in the directory structure.
      What did you do to fix it?
    
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`.
-   To specify the filename to the program, supply a path to the file after the fully qualified name for
-   the class when using the `java` command. 
+   **HINT:** When a program interacts with files, it is relative to the current working directory in
+   which the program is being run.
 
 **CHECKPOINT**
     

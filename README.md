@@ -77,7 +77,8 @@ multiple Java files somewhere in the directory structure.
 
 1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of 
    `Printer.java`, standard input, and `MyCat.java` in that order! If your program does not currently
-   allow "-" to be specified for any of the file names, then modify it to enable that feature.
+   allow "-" to be specified for arbitrary file names in the list of command-line arguments, then 
+   modify it to accomodate that feature.
 
 **CHECKPOINT** 
     

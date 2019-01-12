@@ -1,4 +1,4 @@
-package cs1302.exceptions;
+package cs1302.exceptions
 
 import java.util.Scanner;
 import java.io.File;

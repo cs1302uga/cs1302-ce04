@@ -15,7 +15,7 @@ public class Printer {
             String line = s.nextLine();
             System.out.println(line);
         } // while
-    } // print
+    } // printLines
 
 } // Printer
 

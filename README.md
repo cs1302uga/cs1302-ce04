@@ -2,8 +2,9 @@
 
 ## Prerequisite Knowledge
 
-* Basic knowledge of Java exceptions, including use of `try`-`catch`, `throw`, and `throws`.
-* Checked vs. Unchecked Exceptions
+* Basic knowledge of Java exceptions, including checked exceptions, unchecked exceptions, and
+  the use of `try`-`catch`, `throw`, and `throws`.
+* Familiarity with program command-line arguments in Java.
 
 ## Questions
 
@@ -39,7 +40,9 @@ multiple Java files somewhere in the directory structure.
    * Fix that specific error. There may be other problems with the code, but do not fix them at this time.
      What did you do to fix it?
    
-1. 
+1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`.
+   To specify the filename to the program, supply a path to the file after the fully qualified name for
+   the class when using the `java` command. 
 
 **CHECKPOINT**
     

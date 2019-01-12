@@ -36,7 +36,10 @@ two Java files somewhere in the directory structure.
    * On what line in the source code is the error?
    * How does Java describe the error?
    
-1. 
+1. Fix the specific errors that you listed above so that the files compile. There may be other
+problems with the code, but do not fix them at this time. For each line affected, what did you
+do to fix it?
+
 
 **CHECKPOINT**
     

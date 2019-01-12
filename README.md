@@ -80,6 +80,9 @@ multiple Java files somewhere in the directory structure.
    allow "-" to be specified for arbitrary file names in the list of command-line arguments, then 
    modify it to accomodate that feature.
 
+1. Update the comments in the source code to reflect any functionality that has been added since
+   the beginning of this exercise.
+
 **CHECKPOINT** 
     
 <hr/>

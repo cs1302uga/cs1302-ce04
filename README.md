@@ -29,6 +29,8 @@ two Java files somewhere in the directory structure.
    * What is the path to the default package for source code relative to the `cs1302-ce04`
      directory?
 
+1. From the `cs1302-ce04` directory, try to compile both Java files using a single command.
+
 **CHECKPOINT**
     
 ### SECTION TITLE

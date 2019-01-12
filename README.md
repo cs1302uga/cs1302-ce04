@@ -1,4 +1,4 @@
-# ce04 An Exceptional Cat
+# ce04 From Exceptional to Enhanced Cat
 
 ## Prerequisite Knowledge
 
@@ -76,7 +76,8 @@ multiple Java files somewhere in the directory structure.
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
 1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of 
-   `Printer.java`, standard input, and `MyCat.java` in that order!
+   `Printer.java`, standard input, and `MyCat.java` in that order! If your program does not currently
+   allow "-" to be specified for any of the file names, then modify it to enable that feature.
 
 **CHECKPOINT** 
     

@@ -10,6 +10,10 @@
 In your notes, clearly answer the following questions. These instructions assume that you are 
 logged into the Nike server. 
 
+**NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
+command that you typed to make the related action happen. If context is necessary (e.g., the 
+command depends on your present working directory), then please note that context as well.
+
 ### SECTION TITLE
 
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce04`:
@@ -17,6 +21,12 @@ logged into the Nike server.
    ```
    $ git clone https://github.com/cs1302uga/cs1302-ce04.git
    ```
+
+1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
+two Java files somewhere in the directory structure. What are the fully qualified names for the
+classes contained in those files?
+
+
 
 **CHECKPOINT**
     

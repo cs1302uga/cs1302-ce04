@@ -7,6 +7,8 @@ public class Printer {
 
     /**
      * Prints lines using the given <code>Scanner</code> object.
+     *
+     * @param s  the given scanner
      */
     public static void printLines(Scanner s) {
         while (s.hasNextLine()) {

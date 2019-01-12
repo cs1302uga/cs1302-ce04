@@ -30,7 +30,7 @@ two Java files somewhere in the directory structure.
      directory?
 
 1. From the `cs1302-ce04` directory, try to compile both Java files using a single command. For each
-   each compile-time error, answer the following questions:
+   compile-time error, answer the following questions:
 
    * In what file is the error?
    * On what line in the source code is the error?

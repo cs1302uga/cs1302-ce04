@@ -12,7 +12,11 @@ logged into the Nike server.
 
 ### SECTION TITLE
 
-1. 
+1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce04`:
+
+   ```
+   $ git clone https://github.com/cs1302uga/cs1302-ce04.git
+   ```
 
 **CHECKPOINT**
     

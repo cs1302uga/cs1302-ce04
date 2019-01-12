@@ -23,23 +23,23 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
-two Java files somewhere in the directory structure. 
+multiple Java files somewhere in the directory structure. 
 
    * What are the fully qualified names for the classes contained in those files?
    * What is the path to the default package for source code relative to the `cs1302-ce04`
      directory?
 
-1. From the `cs1302-ce04` directory, try to compile both Java files using a single command. For each
-   compile-time error, answer the following questions:
+1. From the `cs1302-ce04` directory, try to compile each Java file separately. Note, there ares
+   some dependencies between the Java files--therefore the order in which you compile them matters.
+   For each compile-time error, do the following:
 
    * In what file is the error?
    * On what line in the source code is the error?
    * How does Java describe the error?
+   * Fix that specific error. There may be other problems with the code, but do not fix them at this time.
+     What did you do to fix it?
    
-1. Fix the specific errors that you listed above so that the files compile. There may be other
-problems with the code, but do not fix them at this time. For each line affected, what did you
-do to fix it?
-
+1. 
 
 **CHECKPOINT**
     

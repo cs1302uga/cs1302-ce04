@@ -11,9 +11,8 @@ public class MyCat {
     /**
      * Entry point for the application. Exactly zero or one command-line arguments are expected.
      * If a filename is given as an argument, then the program should print the contents of that
-     * program to standard output. If a single dash (i.e., "-") is given as an argument, then
-     * the program should print the contents of standard input. If no arguments are given, then
-     * the program should work the same as if "-" given.
+     * file to standard output. If a single dash (i.e., "-") is given as an argument, then
+     * the program should print the contents of standard input. 
      *
      * @param args  the command-line arguments
      */

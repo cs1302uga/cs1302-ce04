@@ -2,7 +2,8 @@
 
 ## Prerequisite Knowledge
 
-* 
+* Basic knowledge of Java exceptions, including use of `try`-`catch`, `throw`, and `throws`.
+* Checked vs. Unchecked Exceptions
 
 ## Questions
 

@@ -1,5 +1,7 @@
 # ce04 From Exceptional to Enhanced Cat
 
+This class exercise is designed to familiarize students with exceptions and file I/O in Java.
+
 ## Prerequisite Knowledge
 
 * Basic knowledge of Java exceptions, including checked exceptions, unchecked exceptions, and

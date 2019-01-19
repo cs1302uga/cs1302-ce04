@@ -34,6 +34,7 @@ multiple Java files somewhere in the directory structure.
 
 1. From the `cs1302-ce04` directory, try to compile each Java file separately. Note, there ares
    some dependencies between the Java files--therefore the order in which you compile them matters.
+   **Note** The files may contain some compile-time (syntax) errors.
    For each compile-time error, do the following:
 
    * In what file is the error?
@@ -46,12 +47,15 @@ multiple Java files somewhere in the directory structure.
     
 ### Using Your Cat
    
-1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`.
+1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`
+   by passing the relative path to `Printer.java` as a command-line argument.
    **HINT:** When a program interacts with files, it is relative to the current working directory in
-   which the program is being run. That is, you are in some directory when you type the `java` command.
+   which the program is being run. That is, the directory you are in when you type the `java` command.
    For a Java program, relative paths are relative to that directory. 
 
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
+   **HINT:** Read through the code to see what command-line argument you might use to read from standard 
+   input.
    This may seem weird at first, but the program should allow you to type in lines of text to standard
    input. When you complete a line by hitting return, the program will print the line to standard input.
    The program will terminate once it reaches the end of the file. What does that mean for standard
@@ -72,7 +76,7 @@ multiple Java files somewhere in the directory structure.
    Fix the problem in such a way that the following criteria are met whenever the exception occurs:
    
    * The program does not crash.
-   * The excpeption message is stil displayed to standard error.
+   * The exception message is stil displayed to standard error. Check the Java API for methods if you're stuck.
 
    When displaying the exception message, something like the following will suffice 
    (replacing `<message>` with the actual exception message):
@@ -97,6 +101,10 @@ multiple Java files somewhere in the directory structure.
    allow "-" to be specified for arbitrary file names in the list of command-line arguments, then 
    modify it to accomodate that feature.
 
+1. Run your enhanced `MyCat` program by passing in two filenames as command-line arguments. Make sure
+   the first filename does not exist in the file system. Your program should catch this exception and
+   still print the contents of the second file (assuming it exists).
+   
 1. Update the comments in the source code to reflect any functionality that has been added since
    the beginning of this exercise.
 

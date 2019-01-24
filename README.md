@@ -34,7 +34,9 @@ multiple Java files somewhere in the directory structure.
 
 1. From the `cs1302-ce04` directory, try to compile each Java file separately. Note, there ares
    some dependencies between the Java files--therefore the order in which you compile them matters.
-   **Note** The files may contain some compile-time (syntax) errors.
+   **Note** The files likely contain some compile-time (syntax) errors.
+   If the compiler displays multiple errors, then only look at the first one! That first
+   error may have a domino / cascading effect on the rest of the file.
    For the the first compile-time error, do the following:
 
    * In what file is the error?
@@ -64,7 +66,8 @@ multiple Java files somewhere in the directory structure.
 
 1. **[TRICKY]** From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of 
    standard input. At the same time, use input redirection to make standard input for the program come 
-   from `MyCat.java` instead of from the keyboard.
+   from `MyCat.java` instead of from the keyboard. You should be familiar with standard output redirection
+   via `>` and `>>`. Redirecting input uses a similar syntax.
 
 **CHECKPOINT**
     

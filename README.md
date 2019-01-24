@@ -40,8 +40,8 @@ multiple Java files somewhere in the directory structure.
    * In what file is the error?
    * On what line in the source code is the error?
    * How does Java describe the error?
-   * Fix that specific error. There may be other problems with the code, but do not fix them at this time.
-     What did you do to fix it?
+   * Fix that specific compile-time error. There may be logical errors with the code--do not fix them at this time.
+   * Briefly describe your fix.
 
 **CHECKPOINT**
     

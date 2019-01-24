@@ -35,13 +35,14 @@ multiple Java files somewhere in the directory structure.
 1. From the `cs1302-ce04` directory, try to compile each Java file separately. Note, there ares
    some dependencies between the Java files--therefore the order in which you compile them matters.
    **Note** The files may contain some compile-time (syntax) errors.
-   For each compile-time error, do the following:
+   For the the first compile-time error, do the following:
 
    * In what file is the error?
    * On what line in the source code is the error?
    * How does Java describe the error?
    * Fix that specific compile-time error. There may be logical errors with the code--do not fix them at this time.
    * Briefly describe your fix.
+   * Try to recompile. Repeat with the next compile-time error, as needed.
 
 **CHECKPOINT**
     

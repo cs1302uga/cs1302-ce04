@@ -42,7 +42,7 @@ multiple Java files somewhere in the directory structure.
    * How does Java describe the error?
    * Fix that specific compile-time error. There may be logical errors with the code--do not fix them at this time.
    * Briefly describe your fix.
-   * Try to recompile. Repeat with the next compile-time error, as needed.
+   * Try to recompile. Repeat these steps with the next compile-time error, as needed, until the code compiles.
 
 **CHECKPOINT**
     

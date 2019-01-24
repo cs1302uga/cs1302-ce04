@@ -106,7 +106,7 @@ multiple Java files somewhere in the directory structure.
    modify it to accomodate that feature.
 
 1. Run your enhanced `MyCat` program by passing in two filenames as command-line arguments. Make sure
-   the first file does not exist in the file system. Your program should catch the FileNotFoundException,
+   the first file does not exist in the file system. Your program should catch the `FileNotFoundException`,
    print the appropriate message, and still print the contents of the second file (assuming it exists).
    
 1. Update the comments in the source code to reflect any functionality that has been added since

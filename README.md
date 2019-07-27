@@ -8,6 +8,10 @@ This class exercise is designed to familiarize students with exceptions and file
   the use of `try`-`catch`, `throw`, and `throws`.
 * Familiarity with program command-line arguments in Java.
 
+## Course-Specific Learning Outcomes
+
+* **LO2.b:** Define, throw, and propagate exceptions appropriately in a software solution.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 

@@ -30,23 +30,26 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
-multiple Java files somewhere in the directory structure. You may want to execute the `find` command
-on the `src` directory for a quick, easy-to-read view of its contents.
+   multiple Java files somewhere in the directory structure. You may want to execute the `find` command
+   on the `src` directory for a quick, easy-to-read view of the directory contents.
 
    * What are the fully qualified names for the classes contained in the Java files?
    * What is the path to the default package for source code relative to the `cs1302-ce04`
      directory?
 
-1. Read through the Java code in the two files. Note, there is a dependency between the two files. Based 
-   on the dependencies, which `.java` file must be compiled first?
+1. The directory you downloaded contains a Java implementation of the Unix `cat` utility. Use the Unix 
+   `cat` utility to output the contents of `MyCat.java` to the terminal.
+
+1. Read through the Java code in `MyCat.java` and `Printer.java`. Note, there is a dependency between the two files.
+   Based on the dependencies, which `.java` file must be compiled first?
 
 1. From the `cs1302-ce04` directory, try to compile each Java file separately. 
 
-   **Note** The files likely contain some compile-time (syntax) errors.
+   **Note** In this step, you may encounter a compile-time (syntax) error.
    If the compiler displays multiple errors, then only look at the first one! That first
    error may have a domino / cascading effect on the rest of the file.
    
-   For each compile-time error, answer the following in your notes:
+   Answer the following in your notes about the compile-time error:
 
    * In what file is the error?
    * On what line in the source code is the error?

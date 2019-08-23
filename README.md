@@ -30,18 +30,23 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
-multiple Java files somewhere in the directory structure. 
+multiple Java files somewhere in the directory structure. You may want to execute the `find` command
+on the `src` directory for a quick, easy-to-read view of its contents.
 
-   * What are the fully qualified names for the classes contained in those files?
+   * What are the fully qualified names for the classes contained in the Java files?
    * What is the path to the default package for source code relative to the `cs1302-ce04`
      directory?
 
-1. From the `cs1302-ce04` directory, try to compile each Java file separately. Note, there ares
-   some dependencies between the Java files--therefore the order in which you compile them matters.
+1. Read through the Java code in the two files. Note, there is a dependency between the two files. Based 
+   on the dependencies, which `.java` file must be compiled first?
+
+1. From the `cs1302-ce04` directory, try to compile each Java file separately. 
+
    **Note** The files likely contain some compile-time (syntax) errors.
    If the compiler displays multiple errors, then only look at the first one! That first
    error may have a domino / cascading effect on the rest of the file.
-   For the the first compile-time error, do the following:
+   
+   For each compile-time error, answer the following in your notes:
 
    * In what file is the error?
    * On what line in the source code is the error?
@@ -53,7 +58,7 @@ multiple Java files somewhere in the directory structure.
 **CHECKPOINT**
     
 ### Using Your Cat
-   
+
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`
    by passing the relative path to `Printer.java` as a command-line argument.
    **HINT:** When a program interacts with files, it is relative to the current working directory in

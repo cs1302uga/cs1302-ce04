@@ -45,9 +45,8 @@ command depends on your present working directory), then please note that contex
 
 1. From the `cs1302-ce04` directory, try to compile each Java file separately. 
 
-   **Note** In this step, you may encounter a compile-time (syntax) error.
-   If the compiler displays multiple errors, then only look at the first one! That first
-   error may have a domino / cascading effect on the rest of the file.
+   **Note** In this step, you may encounter a compile-time (syntax) error. Hint: the error should not be a "cannot
+   find symbol" error. If it is, you will need to adjust your compilation command.
    
    Answer the following in your notes about the compile-time error:
 
@@ -56,17 +55,18 @@ command depends on your present working directory), then please note that contex
    * How does Java describe the error?
    * Fix that specific compile-time error. There may be logical errors with the code--do not fix them at this time.
    * Briefly describe your fix.
-   * Try to recompile. Repeat these steps with the next compile-time error, as needed, until the code compiles.
 
 **CHECKPOINT**
     
-### Using Your Cat
+### Using and Enhancing `MyCat`
 
-1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of `Printer.java`
-   by passing the relative path to `Printer.java` as a command-line argument.
+1. From the `cs1302-ce04` directory, use your freshly compiled `MyCat` program to display the contents of
+   `Printer.java` by passing the relative path to `Printer.java` as a command-line argument. 
    **HINT:** When a program interacts with files, it is relative to the current working directory in
    which the program is being run. That is, the directory you are in when you type the `java` command.
    For a Java program, relative paths are relative to that directory. 
+   
+1. Take a moment to note the similarties between using `MyCat` and the Unix `cat` utility.
 
 1. From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of standard input.
    **HINT:** Read through the code to see what command-line argument you might use to read from standard 
@@ -76,23 +76,19 @@ command depends on your present working directory), then please note that contex
    The program will terminate once it reaches the end of the file. What does that mean for standard
    input? You can trigger the end of file (a.k.a. the `EOF`) by pressing `C-d`.
 
-1. **[TRICKY]** From the `cs1302-ce04` directory, use the `MyCat` program to display the contents of 
-   standard input. At the same time, use input redirection to make standard input for the program come 
-   from `MyCat.java` instead of from the keyboard. You should be familiar with standard output redirection
-   via `>` and `>>`. Redirecting input uses a similar syntax.
-
-**CHECKPOINT**
-    
-### Enhancing Your Cat
-
 1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. A run-time
-   exception should occur. What is it, and why did it occur?
+   exception should occur. Answer the following questions about the exception in your notes:
+   
+   * What is the name of the exception?
+   * Why did the exception occur?
+   * Is this exception a checked or an unchecked exception? How can you tell?
 
 1. There are multiple ways to fix the run-time exception that you encountered in the last step.
    Fix the problem in such a way that the following criteria are met whenever the exception occurs:
    
    * The program does not crash.
-   * The exception message is stil displayed to standard error. Check the Java API for methods if you're stuck.
+   * The exception message is stil displayed to standard error. To do this, you will need to call the
+   `toString()` method on the exception object reference given in the `catch` statement.
 
    When displaying the exception message, something like the following will suffice 
    (replacing `<message>` with the actual exception message):
@@ -113,7 +109,7 @@ command depends on your present working directory), then please note that contex
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
 1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of 
-   `Printer.java`, standard input, and `MyCat.java` in that order! If your program does not currently
+   `Printer.java`, standard input ("-"), and `MyCat.java` in that order! If your program does not currently
    allow "-" to be specified for arbitrary file names in the list of command-line arguments, then 
    modify it to accomodate that feature.
 

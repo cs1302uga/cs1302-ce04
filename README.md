@@ -58,7 +58,7 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
     
-### Using and Enhancing `MyCat`
+### Using and Enhancing Your Cat
 
 1. From the `cs1302-ce04` directory, use your freshly compiled `MyCat` program to display the contents of
    `Printer.java` by passing the relative path to `Printer.java` as a command-line argument. 

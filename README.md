@@ -43,7 +43,8 @@ command depends on your present working directory), then please note that contex
 1. Read through the Java code in `MyCat.java` and `Printer.java`. Note, there is a dependency between the two files.
    Based on the dependencies, which `.java` file must be compiled first?
 
-1. From the `cs1302-ce04` directory, try to compile each Java file separately. 
+1. From the `cs1302-ce04` directory, try to compile each Java file separately, specifying `bin`
+   as the default package for _compiled code_. 
 
    **Note** In this step, you may encounter a compile-time (syntax) error. Hint: the error should not be a "cannot
    find symbol" error. If it is, you will need to adjust your compilation command.

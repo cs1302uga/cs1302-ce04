@@ -26,7 +26,7 @@ command depends on your present working directory), then please note that contex
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce04`:
 
    ```
-   $ git clone https://github.com/cs1302uga/cs1302-ce04.git
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce04.git
    ```
 
 1. Change into the `cs1302-ce04` directory that was just created and look around. There should be
@@ -34,7 +34,7 @@ command depends on your present working directory), then please note that contex
    on the `src` directory for a quick, easy-to-read view of the directory contents.
 
    * What are the fully qualified names for the classes contained in the Java files?
-   * What is the path to the default package for source code relative to the `cs1302-ce04`
+   * What is the path to the default package for _source code_ relative to the `cs1302-ce04`
      directory?
 
 1. The directory you downloaded contains a Java implementation of the Unix `cat` utility. Use the Unix 

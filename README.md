@@ -1,5 +1,6 @@
 # ce04 From Exceptional to Enhanced Cat
 
+<!-- ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue) -->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 This class exercise is designed to familiarize students with exceptions and file I/O in Java.
@@ -39,8 +40,11 @@ command depends on your present working directory), then please note that contex
    * What is the path to the default package for _source code_ relative to the `cs1302-ce04`
      directory?
 
-1. The directory you downloaded contains a Java implementation of the Unix `cat` utility. Use the Unix 
-   `cat` utility to output the contents of `MyCat.java` to the terminal.
+1. The directory you downloaded contains a Java implementation of the Unix `cat` utility. Remember, the commands
+   you have been executing in Unix are just programs that were installed by the system administrators. `MyCat.java`
+   works similarly to `cat` but was written by your instructors and will be compiled by you. Before compiling, use 
+   the Unix `cat` utility to print the contents of `MyCat.java` to the terminal. Write the command you used to do 
+   this in your notes.
 
 1. Read through the Java code in `MyCat.java` and `Printer.java`. Note, there is a dependency between the two files.
    Based on the dependencies, which `.java` file must be compiled first?
@@ -48,8 +52,8 @@ command depends on your present working directory), then please note that contex
 1. From the `cs1302-ce04` directory, try to compile each Java file separately, specifying `bin`
    as the default package for _compiled code_. 
 
-   **Note** In this step, you may encounter a compile-time (syntax) error. Hint: the error should not be a "cannot
-   find symbol" error. If it is, you will need to adjust your compilation command.
+   **Note** In this step, you may encounter a compile-time (syntax) error. **Hint**: the error should not be 
+   a "cannot find symbol" error. If it is, you will need to adjust your compilation command.
    
    Answer the following in your notes about the compile-time error:
 
@@ -111,10 +115,10 @@ command depends on your present working directory), then please note that contex
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
-1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of 
-   `Printer.java`, standard input ("-"), and `MyCat.java` in that order! If your program does not currently
-   allow "-" to be specified for arbitrary file names in the list of command-line arguments, then 
-   modify it to accomodate that feature.
+1. From the `cs1302-ce04` directory, use your enhanced `MyCat` program to display the contents of the 
+   following three files all passed in at once:`Printer.java`, standard input ("-"), and `MyCat.java` 
+   in that order! If your program does not currently allow "-" to be specified for arbitrary file names 
+   in the list of command-line arguments, then modify it to accomodate that feature.
 
 1. Run your enhanced `MyCat` program by passing in two filenames as command-line arguments. Make sure
    the first file does not exist in the file system. Your program should catch the `FileNotFoundException`,

@@ -1,6 +1,6 @@
 # ce04 From Exceptional to Enhanced Cat
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This class exercise is designed to familiarize students with exceptions and file I/O in Java.
 
@@ -17,15 +17,17 @@ This class exercise is designed to familiarize students with exceptions and file
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce04`:
+### Checkpoint 1 Steps
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce04`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce04.git
@@ -62,9 +64,13 @@ command depends on your present working directory), then please note that contex
    * Fix that specific compile-time error. There may be logical errors with the code--do not fix them at this time.
    * Briefly describe your fix.
 
-**CHECKPOINT**
-    
-### Using and Enhancing Your Cat
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps - Using and Enhancing Your Cat
 
 1. From the `cs1302-ce04` directory, use your freshly compiled `MyCat` program to display the contents of
    `Printer.java` by passing the relative path to `Printer.java` as a command-line argument. 
@@ -106,9 +112,13 @@ command depends on your present working directory), then please note that contex
 1. From the `cs1302-ce04` directory, run the `MyCat` program with no command-line arguments. What's the
    difference between this execution of the program and the one performed two steps earlier?
 
-**CHECKPOINT**
-    
-### Further Enhancing Your Cat
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps - Further Enhancing Your Cat
 
 1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
@@ -126,8 +136,51 @@ command depends on your present working directory), then please note that contex
 1. Update the comments in the source code to reflect any functionality that has been added since
    the beginning of this exercise.
 
-**CHECKPOINT** 
-    
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `exercise4`
+   directory with the following information:
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   ```
+
+1. Change directories to the parent of `cs1302-ce04` (e.g., `cd ..` from `cs1302-ce04`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce04 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)

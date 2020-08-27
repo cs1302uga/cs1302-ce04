@@ -147,11 +147,11 @@ command depends on your present working directory), then please note that contex
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside the `exercise4`
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce04`
    directory with the following information:
 
-   1. Your name and UGA ID number;
-   1. Collaborator names, if any; and
+   1. Your name and UGA ID number; and
+   1. Collaborator names, if any. 
    
    Here is an example of the contents of `SUBMISSION.md`.
    

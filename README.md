@@ -120,7 +120,7 @@ command depends on your present working directory), then please note that contex
 
 ### Checkpoint 3 Steps - Further Enhancing Your Cat
 
-1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one of more
+1. Now, let's add some more functionality to the `MyCat` program. Change the code so that one or more
    command-line arguments are accepted. The expected behavor is that `MyCat` should print the files, in
    order, to standard output, effectively con<b>cat</b>enating the contents of the supplied files.
 
